@@ -1,0 +1,40 @@
+{
+  "name": "distributed-lock",
+  "description": "A distributed resource locking library with Memcached.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kkohtaka/node-distributed-lock.git"
+  },
+  "main": "./index.js",
+  "keywords": [
+    "lock",
+    "distributed lock service"
+  ],
+  "directories": {
+    "lib": "./lib",
+    "test":  "./test"
+  },
+  "dependencies": {
+    "memcached": "0.1.5"
+  },
+  "devDependencies": {
+    "jslint": "0.1.9",
+    "mocha": "1.7.3",
+    "should": "1.2.1",
+    "sinon": "1.5.2"
+  },
+  "licenses": [
+    {
+      "type": "Apache License, Version 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "author": {
+    "name": "Kazumasa Kohtaka",
+    "email": "kkohtaka@uievolution.com"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}
